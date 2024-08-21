@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "mobile",
+        "1": "productivity",
+        "2": "small business",
+        "3": "chat",
+        "4": "email"
+    },
+    "description": "A minimalistic, customizable, responsive toast alert. choose between different types of notifications (info toast, success toast, error toast ,warning toast).\n\ncustomize the notifcation by setting a message, duration before hiding, position and other options\n",
+    "image": "//meta-q.cdn.bubble.io/f1724222119412x670352599147571200/Animation%20-%201724222054041.gif",
+    "license": "open_source",
+    "name": "Toast Alert"
+}

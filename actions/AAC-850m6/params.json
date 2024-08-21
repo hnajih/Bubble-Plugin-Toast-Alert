@@ -1,0 +1,65 @@
+{
+    "category": "plugins",
+    "display": "Show Alert",
+    "fields": {
+        "AAD": {
+            "caption": "Message",
+            "editor": "DynamicValue",
+            "name": "message",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAE": {
+            "caption": "Duration",
+            "default_val": 2000,
+            "doc": "Number of miliseconds before hiding the notification. Use 0 for infinite duration.",
+            "editor": "StaticNumber",
+            "name": "duration",
+            "rank": 2
+        },
+        "AAF": {
+            "caption": "Ripple effect",
+            "default_val": true,
+            "doc": "Whether to show the notification with a ripple effect",
+            "editor": "Checkbox",
+            "name": "ripple",
+            "rank": 6
+        },
+        "AAG": {
+            "caption": "Dismissible",
+            "default_val": false,
+            "doc": "Whether to allow users to dismiss the notification with a button",
+            "editor": "Checkbox",
+            "name": "dismissible",
+            "rank": 5
+        },
+        "AAH": {
+            "caption": "X position",
+            "default_val": "right",
+            "doc": "location where notifications are rendered",
+            "editor": "Dropdown",
+            "name": "x",
+            "options": "left,center,right",
+            "rank": 3
+        },
+        "AAI": {
+            "caption": "Y position",
+            "default_val": "bottom",
+            "doc": "location where notifications are rendered",
+            "editor": "Dropdown",
+            "name": "y",
+            "options": "top,center,bottom",
+            "rank": 4
+        },
+        "AAJ": {
+            "caption": "type",
+            "default_val": "info",
+            "editor": "Dropdown",
+            "name": "type",
+            "optional": false,
+            "options": "info,success,error,warning",
+            "rank": 0
+        }
+    },
+    "type": "client_side"
+}
